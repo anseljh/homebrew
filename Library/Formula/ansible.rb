@@ -2,9 +2,8 @@ require 'formula'
 
 class Ansible < Formula
   homepage 'http://www.ansible.com/home'
-  url 'http://releases.ansible.com/ansible/ansible-1.5.5.tar.gz'
-  sha1 '9a065eac0d15413284c8c7f9f5047d7b1249f16c'
-
+  url 'http://releases.ansible.com/ansible/ansible-latest.tar.gz'
+  
   head 'https://github.com/ansible/ansible.git', :branch => 'devel'
 
   depends_on :python
